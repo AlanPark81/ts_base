@@ -1,17 +1,27 @@
 {
     "compilerOptions": {
-        "module": "system",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es6",
+        "module": "commonjs",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "outFile": "index.js",
-        "sourceMap": true
+        "outDir": "build",
+        "allowJs": true,
+        "sourceMap": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./types"
+        ],
+        "jsx": "react"
     },
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "test/*"
     ],
     "exclude": [
         "node_modules",
-        "**/*.spec.ts"
+        "src/api/*"
     ]
 }

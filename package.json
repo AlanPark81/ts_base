@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/ts-node src/main.ts"
+    "start": "./node_modules/.bin/ts-node src/main.ts",
+    "test": "rm -rf build && tsc && istanbul cover node_modules/jasmine/bin/jasmine.js -x **/proto.*  -- --config=jasmine.json"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^6.0.0",
     "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "@types/jest": "^23.3.9",
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.3.0",
+    "jasmine-ts": "^0.3.0",
+    "remap-istanbul": "^0.12.0"
   }
 }
