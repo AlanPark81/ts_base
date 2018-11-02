@@ -3,5 +3,8 @@
   "spec_files": [
     "**/*[sS]pec.js"
   ],
-  "stopSpecOnExpectationFailure": true
+  "stopSpecOnExpectationFailure": true,
+  "helpers": [
+    "test/helpers.js"
+  ]
 }

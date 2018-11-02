@@ -18,6 +18,7 @@
     "istanbul": "^0.4.5",
     "jasmine": "^3.3.0",
     "jasmine-ts": "^0.3.0",
+    "jasmine-ts-console-reporter": "^3.1.1",
     "remap-istanbul": "^0.12.0"
   }
 }
