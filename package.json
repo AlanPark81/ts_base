@@ -10,15 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ts-node": "^6.0.0",
-    "typescript": "^2.8.1"
+    "ts-node": "~8.3.0",
+    "typescript": "~3.5.3"
   },
   "dependencies": {
-    "@types/jest": "^23.3.9",
-    "istanbul": "^0.4.5",
-    "jasmine": "^3.3.0",
-    "jasmine-ts": "^0.3.0",
-    "jasmine-ts-console-reporter": "^3.1.1",
-    "remap-istanbul": "^0.12.0"
+    "@types/jest": "~24.0.15",
+    "istanbul": "~0.4.5",
+    "jasmine": "~3.4.0",
+    "jasmine-ts": "~0.3.0",
+    "jasmine-ts-console-reporter": "~3.1.1",
+    "remap-istanbul": "~0.13.0"
   }
 }
